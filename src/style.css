@@ -1,0 +1,10 @@
+:root{
+  --max-w: 1440px;
+  --bg: #f6f8fb;
+}
+*{ box-sizing: border-box; }
+body{ margin:0; background:var(--bg); color:#0f172a; font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+.container{ max-width:var(--max-w); margin:0 auto; padding:20px; }
+.card{ background:#fff; border-radius:12px; box-shadow:0 10px 30px rgba(11,19,43,0.06); padding:16px; }
+button{ cursor:pointer; }
+a{ color:inherit; }
